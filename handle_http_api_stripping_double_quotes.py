@@ -8,7 +8,7 @@ def lambda_handler(event, context):
     
     #replicates REST API cookie payload
     input2_headers = {
-    'cookie': 'csrftoken=WvWLrENu05ETxo8ywkCOb9b8xxxxasdasdasd123242423423424; sessionid=35lg1231231dsktufyb8ulkhje0hn4uqc7m7; messages=60fd922b12313131231231231312adsasdcb$[[\"__json_message\"\0540\05430\054\"Items must be selected in order to perform actions on them. No items have been changed.\"]]',
+    'cookie': 'csrftoken=WvWLrENu05ETxo8ywkCOb9b8xxxxasdasdasd123242423423424; sessionid=35lg1231231dsktufyb8ulkhje0hn4uqc7m7; messages="60fd922b12313131231231231312adsasdcb$[[\"__json_message\"\0540\05430\054\"Items must be selected in order to perform actions on them. No items have been changed.\"]]"',
     }
 
     #change input1_headers with input2_headers to observe cookie handling
