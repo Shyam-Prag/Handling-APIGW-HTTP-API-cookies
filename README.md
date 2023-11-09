@@ -1,5 +1,5 @@
 # Handling-APIGW-HTTP-API-cookies
-Currently when you integrate AWS API Gateway HTTP API with Lambda, the cookie value which is wrapped with double quotes ("") which is passed gets stripped automatically by API Gateway. 
+Currently when you integrate AWS API Gateway HTTP API with Lambda, a cookie header value wrapped with double quotes ("") which is passed to the Lambda backend gets stripped automatically by API Gateway. 
 
 This may affect business logic and cleanliness as values passed to API Gateway are not identical in the Lambda function's payload. 
 
